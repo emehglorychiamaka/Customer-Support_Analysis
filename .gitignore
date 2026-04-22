@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.tmp
+
+# Large or sensitive data
+data/raw/
+*.csv
+
+# Credentials
+.env
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
